@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<android.support.v7.widget.CardView
+
+        android:id="@+id/cvMensajes"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto">
+
+        <linearLayout
+            android:Layout_width="wrap_content"
+            android:Layout_height="wrap_content"
+            android:background="@drawable/out_message_bg">
+            <TextView
+                android:lid="@+id/msTexto"
+                android:Layout_width="wrap_content"
+                android:Layout_height="wrap_content"
+                android:text="hola amigos como estan"/>
+
+            <TextView
+                android:lid="@+id/msHora"
+                android:Layout_width="wrap_content"
+                android:Layout_height="wrap_content"
+                android:text="12:00pm"/>
+
+
+
+        </linearLayout>
+
+</android.support.v7.widget.CardView>
